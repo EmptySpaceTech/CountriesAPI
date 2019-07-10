@@ -32,3 +32,10 @@ nav img{
 .col-lg-4, .col-md-6, .col-12{
   margin-top: 70px;
 }
+
+/* CSS for Responsiveness */
+@media only screen and (max-width: 768px){
+  .container{
+    margin-left: calc(50vw - 143px);
+  }
+}
