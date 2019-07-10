@@ -1,0 +1,34 @@
+body{
+  background: #F6F6F6;
+}
+
+nav{
+  height: 70px;
+}
+
+nav img{
+  width: 40px;
+  height: 40px;
+}
+
+.nav-name{
+  color: #FFF;
+  padding-left: 10px;
+  font-weight: bolder;
+  font-size: 25px;
+}
+
+.input-group{
+  width: 70vw;
+  margin-left: 15vw;
+  margin-top: 40px;
+}
+
+.container{
+  padding-top: 20px;
+  margin-bottom: 10vh;
+}
+
+.col-lg-4, .col-md-6, .col-12{
+  margin-top: 70px;
+}

@@ -2,26 +2,56 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>Country API</title>
+    <title>Country Finder</title>
+    <link rel="shortcut icon" href="images/globe.png">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/main.css" rel="stylesheet">
   </head>
   <body>
 
-    <input type="text" id="ipCntr" placeholder="Enter Country Name ">
-    <input type="button" id="btnClick" value="Search">
+    <!-- Image and text -->
+    <nav class="navbar sticky-top navbar-light bg-dark">
+      <a class="navbar-brand" href="#">
+        <img src="images/country.png" class="d-inline-block align-top" alt="Country-finder-logo">
+        <span class="nav-name">Country Finder</span>
+      </a>
+    </nav>
 
-    <div class="container">
-      <div class="country" id="cntrSect">
-        <!-- <h1>Name : India</h1>
-        <h4>Region : Asia</h4>
-        <h4>Sub Region : South Asia</h4>
-        <h4>Time Zones : +5:30</h4>
-        <h4>currencies : Rupees</h4>
-        <img width="135" height="90" src="https://restcountries.eu/data/ind.svg" alt="india flag"> -->
+    <div class="input-group">
+      <input type="text" class="form-control" id="ipCntr" placeholder="Enter Country Name " aria-label="Enter Country Name " aria-describedby="basic-addon2">
+      <div class="input-group-append">
+        <input type="button" class="btn btn-success" id="btnClick" value="Search">
       </div>
     </div>
 
+
+    <div class="container">
+      <div class="row" id="cntrSect">
+
+        <!-- <div class="col-lg-4 col-md-6 col-12">
+          <div class="card" style="width: 18rem;">
+            <img src="https://restcountries.eu/data/ind.svg" class="card-img-top" alt="India Flag">
+            <div class="card-body">
+              <h5 class="card-title">India</h5>
+              <h6 class="card-subtitle mb-2 text-muted">Region : Asia</h6>
+              <h6 class="card-subtitle mb-2 text-muted">Sub Region : Southern Asia</h6>
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">Time Zones : +5:30</li>
+              <li class="list-group-item">Currencies : Rupees</li>
+              <li class="list-group-item">Population : 1295210000</li>
+            </ul>
+          </div>
+        </div> -->
+
+      </div>
+    </div>
+
+
     <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/sweetalert.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
     <script src="js/main.js"></script>
   </body>
 </html>
