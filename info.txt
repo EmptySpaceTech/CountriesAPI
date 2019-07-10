@@ -1,0 +1,6 @@
+1. Country name
+2. Region
+3. subregion
+4. timezones
+5. currency Name
+6. flag
